@@ -17,11 +17,12 @@
     <color name="Green_light">#a857ff </color>
     <color name="Green">#70E085 </color>
     <color name="Green_dark">#3D7A48 </color>
-    <color name="CianoDeTeste">#33ffe6 </color>
-    <color name="OutroCIanoDeTeste">#4dffe9 </color>
+
     <color name="AmareloDeTeste">#fffe38 </color>
 
-
+    <color name="CianoDeTesteClaro">#0DD3FF </color>
+    <color name="CianoDeTesteMedio">#0A9EBF </color>
+    <color name="CianoDeTesteEscuro">#0889A6  </color>
 
     <color name="PurpleTestLight">#B69ED9 </color>
     <color name="PurpleTestMedium">#a857ff </color>
