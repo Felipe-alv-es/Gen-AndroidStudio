@@ -10,11 +10,13 @@ class FormLogin : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form_task)
 
+        // Gradiente mudando de cor
         val constraintLayout: ConstraintLayout = findViewById(R.id.mainLayout)
         var animationDraw: AnimationDrawable = constraintLayout.background as AnimationDrawable
         animationDraw.setEnterFadeDuration(2500)
         animationDraw.setExitFadeDuration(5000)
         animationDraw.start()
+        // Gradiente mudando de cor
 
     }
 }

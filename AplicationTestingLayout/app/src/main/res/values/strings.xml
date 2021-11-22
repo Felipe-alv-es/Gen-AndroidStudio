@@ -5,4 +5,8 @@
     <string name="hora">Hora</string>
     <string name="descri_o_da_tarefa">Descrição da tarefa</string>
     <string name="geometric_background">Geometric Background</string>
+    <string name="nome_de_usu_rio">Nome de Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="Cadastro">Cadastre-se</string>
 </resources>
