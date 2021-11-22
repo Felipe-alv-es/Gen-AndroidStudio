@@ -6,7 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".FormLogin"
     android:background="@drawable/gradient_list"
-    android:id="@+id/mainLayout">
+    android:id="@+id/mainLayout"
+    >
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/geometric_background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backtest2" />
 
     <androidx.appcompat.widget.ActionMenuView
         android:id="@+id/helpButton"
@@ -16,7 +29,8 @@
         android:layout_marginEnd="15dp"
         android:background="@drawable/ic_helpbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <androidx.appcompat.widget.ActionMenuView
         android:id="@+id/MenuBurgerButton"
@@ -26,7 +40,9 @@
         android:layout_marginTop="6dp"
         android:background="@drawable/ic_menu"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:showAsAction="ifRoom"
+        />
 
     <View
         android:id="@+id/cont"
@@ -63,6 +79,7 @@
         android:layout_marginEnd="25dp"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
 
@@ -98,7 +115,8 @@
         android:layout_marginTop="35dp"
         android:layout_marginEnd="65dp"
         android:fontFamily="@font/open_sans"
-        android:hint="Digite o titulo da tarefa"
+        android:hint="@string/digite_o_titulo_da_tarefa"
+        android:importantForAutofill="no"
         android:inputType="text"
         android:textColor="#F4F4F4"
         android:visibility="visible"
@@ -113,9 +131,10 @@
         android:layout_height="48dp"
         android:layout_marginStart="45dp"
         android:layout_marginTop="15dp"
-        android:drawableLeft="@drawable/ic_calendario"
+        android:drawableStart="@drawable/ic_calendario"
         android:fontFamily="@font/open_sans"
-        android:hint="/ Data /"
+        android:hint="@string/data"
+        android:importantForAutofill="no"
         android:inputType="date"
         android:textColor="#FFFDFD"
         android:visibility="visible"
@@ -129,9 +148,10 @@
         android:layout_height="48dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="45dp"
-        android:drawableLeft="@drawable/ic_clockwhite"
+        android:drawableStart="@drawable/ic_clockwhite"
         android:fontFamily="@font/open_sans"
-        android:hint="Hora"
+        android:hint="@string/hora"
+        android:importantForAutofill="no"
         android:inputType="time"
         android:textColor="#FAF7F7"
         android:visibility="visible"
@@ -145,7 +165,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="65dp"
         android:fontFamily="@font/open_sans"
-        android:hint="Descrição da tarefa"
+        android:hint="@string/descri_o_da_tarefa"
+        android:importantForAutofill="no"
+        android:inputType="text"
         android:textColor="#FAF6F6"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="@+id/form_box"

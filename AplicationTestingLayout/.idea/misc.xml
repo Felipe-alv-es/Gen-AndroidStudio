@@ -10,12 +10,17 @@
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/backgroundbuttondaily.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/blue_ballon_camp.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/borda_subcentro.xml" value="0.16203703703703703" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/burger_button_format.xml" value="0.16296296296296298" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/campos_preenchidos.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/container_components.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/gradient_list.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/ic_clock.xml" value="0.16296296296296298" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/drawable/ic_menu.xml" value="0.1648148148148148" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/layout/activity_form_login.xml" value="0.33" />
         <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/layout/header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/menu/menu_burger_button.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/felip/AndroidStudioProjects/AplicationTestingLayout/app/src/main/res/menu/nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
