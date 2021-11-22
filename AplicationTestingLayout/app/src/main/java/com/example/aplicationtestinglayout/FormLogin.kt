@@ -8,7 +8,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 class FormLogin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_form_login)
+        setContentView(R.layout.activity_form_task)
 
         val constraintLayout: ConstraintLayout = findViewById(R.id.mainLayout)
         var animationDraw: AnimationDrawable = constraintLayout.background as AnimationDrawable
