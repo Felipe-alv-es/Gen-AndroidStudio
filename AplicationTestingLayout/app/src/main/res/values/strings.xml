@@ -9,4 +9,6 @@
     <string name="senha">Senha</string>
     <string name="login">Login</string>
     <string name="Cadastro">Cadastre-se</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
